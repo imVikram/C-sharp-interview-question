@@ -3,7 +3,13 @@ Updated C Sharp(C#) interview questions list
 
 | No. | Questions |
 |---- | ---------|
-|1    | [What is C#(C Sharp)?	](#how-do-we-create-objects-in-javascript )|
+|1    | [What is C#(C Sharp)?	](#what-is-c )|
+|2    | [What is an Object?	](#what-is-an-object )|
+|3    | [What is the difference between a struct and a class in C#?	](#what-is-the-difference-between-a-struct-and-a-class-in-c )|
+|4    | [What is the difference between Interface and Abstract Class?	](#what-is-the-difference-between-interface-and-abstract-class )|
+|5    | [What is the difference between constant and readonly?	](#what-is-the-difference-between-constant-and-readonly )|
+|7    | [What is the difference between ref and out keywords?	](#what-is-the-difference-between-ref-and-out-keywords )|
+|8    | [What is the difference between ref and out keywords?	](#can-we-use-this-within-a-static-method )|
 
 
 # What is C#?
