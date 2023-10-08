@@ -16,10 +16,6 @@ Updated C Sharp(C#) interview questions list
 |12   | [What are partial classes?	](#what-are-partial-classes )|
 |13   | [What is difference between late binding and early binding?	](#what-is-difference-between-late-binding-and-early-binding )|
 
-Question : 
-
-#can-we-use-this-within-a-static-method
-
 
 # What is C#?
 
