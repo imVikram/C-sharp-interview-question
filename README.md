@@ -165,5 +165,70 @@ Static methods (or any static member) do not belong to a particular instance. Th
 The "this" keyword is a special type of reference variable that is implicitly defined within each constructor and non-static method as a first parameter of the type class in which it is defined. For example, consider the following class written in C#.
 
 
+# What is the difference between string and StringBuilder in C#?
+
+|string|StringBuilder|
+|----|----|
+|It’s an immutable object that holds string value.|StringBuilder is a mutable object.|
+|Performance wise string is slow because its’ create a new instance to override or change the previous value.|Performance wise StringBuilder is very fast because it will use same instance of StringBuilder object to perform any operation like insert value in existing string.|
+| String belongs to System namespace.|StringBuilder belongs to System.Text.Stringbuilder namespace.|
+
+
+# What are sealed class?
+
+Sealed classes are used to restrict the inheritance feature of object oriented programming. Once a class is defined as a sealed class, the class cannot be inherited.
+
+In C#, the sealed modifier is used to define a class as sealed. In Visual Basic .NET the Not Inheritable keyword serves the purpose of sealed. If a class is derived from a sealed class then the compiler throws an error.
+
+If you have ever noticed, structs are sealed. You cannot derive a class from a struct.
+
+The following class definition defines a sealed class in C#:
+
+
+
+## Example:
+
+```csharp
+Sealed class sealed class SealedClass { }
+```
+
+# What are partial classes?
+
+A partial class is only use to splits the definition of a class in two or more classes in a same source code file or more than one source files. You can create a class definition in multiple files but it will be compiled as one class at run time and also when you’ll create an instance of this class so you can access all the methods from all source file with a same object.
+
+Partial Classes can be created in the same namespace it’s not allowed to create a partial class in different namespace. So use “partial” keyword with the entire class name in which you want to bind together with the same name of class in same namespace
+
+
+
+## Example:
+
+```csharp
+public partial class Test {
+	private string Author_name;
+	private int Total_articles;
+
+	public Test(string a, int t)
+	{
+		this.Authour_name = a;
+		this.Total_articles = t;
+	}
+}
+
+```
+
+
+# Question : What is difference between late binding and early binding?
+
+Early Binding and Late Binding concepts belongs to polymorphism so let’s see first about polymorphism: Polymorphism is an ability to take more than one form of a function means with a same name we can write multiple functions code in a same class or any derived class.
+
+Polymorphism we have 2 different types to achieve that: • Compile Time also known as Early Binding or Overloading. • Run Time also known as Late Binding or Overriding.
+
+Compile Time Polymorphism or Early Binding: In Compile time polymorphism or Early Binding we will use multiple methods with same name but different type of parameter or may be the number or parameter because of this we can perform different-different tasks with same method name in the same class which is also known as Method overloading.
+
+
+
+
+
+
 
 
