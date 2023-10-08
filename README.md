@@ -10,6 +10,15 @@ Updated C Sharp(C#) interview questions list
 |5    | [What is the difference between constant and readonly?	](#what-is-the-difference-between-constant-and-readonly )|
 |7    | [What is the difference between ref and out keywords?	](#what-is-the-difference-between-ref-and-out-keywords )|
 |8    | [What is the difference between ref and out keywords?	](#can-we-use-this-within-a-static-method )|
+|9    | [Can we use “this” within a static method?	](#can-we-use-this-within-a-static-method )|
+|10    | [What is the difference between string and StringBuilder in C#?	](#what-is-the-difference-between-string-and-stringbuilder-in-c )|
+|11   | [What are sealed class?	](#what-are-sealed-class )|
+|12   | [What are partial classes?	](#what-are-partial-classes )|
+|13   | [What is difference between late binding and early binding?	](#what-are-partial-classes )|
+
+Question : 
+
+#can-we-use-this-within-a-static-method
 
 
 # What is C#?
@@ -217,7 +226,7 @@ public partial class Test {
 ```
 
 
-# Question : What is difference between late binding and early binding?
+# What is difference between late binding and early binding?
 
 Early Binding and Late Binding concepts belongs to polymorphism so let’s see first about polymorphism: Polymorphism is an ability to take more than one form of a function means with a same name we can write multiple functions code in a same class or any derived class.
 
