@@ -14,7 +14,7 @@ Updated C Sharp(C#) interview questions list
 |10    | [What is the difference between string and StringBuilder in C#?	](#what-is-the-difference-between-string-and-stringbuilder-in-c )|
 |11   | [What are sealed class?	](#what-are-sealed-class )|
 |12   | [What are partial classes?	](#what-are-partial-classes )|
-|13   | [What is difference between late binding and early binding?	](#what-are-partial-classes )|
+|13   | [What is difference between late binding and early binding?	](#what-is-difference-between-late-binding-and-early-binding )|
 
 Question : 
 
