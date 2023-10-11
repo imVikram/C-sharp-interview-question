@@ -9,12 +9,11 @@ Updated C Sharp(C#) interview questions list
 |4    | [What is the difference between Interface and Abstract Class?	](#what-is-the-difference-between-interface-and-abstract-class )|
 |5    | [What is the difference between constant and readonly?	](#what-is-the-difference-between-constant-and-readonly )|
 |7    | [What is the difference between ref and out keywords?	](#what-is-the-difference-between-ref-and-out-keywords )|
-|8    | [What is the difference between ref and out keywords?	](#can-we-use-this-within-a-static-method )|
-|9    | [Can we use “this” within a static method?	](#can-we-use-this-within-a-static-method )|
-|10    | [What is the difference between string and StringBuilder in C#?	](#what-is-the-difference-between-string-and-stringbuilder-in-c )|
-|11   | [What are sealed class?	](#what-are-sealed-class )|
-|12   | [What are partial classes?	](#what-are-partial-classes )|
-|13   | [What is difference between late binding and early binding?	](#what-is-difference-between-late-binding-and-early-binding )|
+|8    | [Can we use “this” within a static method?	](#can-we-use-this-within-a-static-method )|
+|9    | [What is the difference between string and StringBuilder in C#?	](#what-is-the-difference-between-string-and-stringbuilder-in-c )|
+|10   | [What are sealed class?	](#what-are-sealed-class )|
+|11   | [What are partial classes?	](#what-are-partial-classes )|
+|12   | [What is difference between late binding and early binding?	](#what-is-difference-between-late-binding-and-early-binding )|
 
 
 # What is C#?
