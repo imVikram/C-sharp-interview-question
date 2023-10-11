@@ -246,7 +246,7 @@ Dependency injection (DI) is a software design pattern that allows us to separat
 
 # Explain SOLID priciples in detail
 
-• First introduced by Robin J Martin.
+• First introduced by Robin C Martin.
 
 • Five priciples of object-oriented class design 
 
