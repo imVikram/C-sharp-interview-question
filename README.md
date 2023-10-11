@@ -14,6 +14,7 @@ Updated C Sharp(C#) interview questions list
 |10   | [What are sealed class?	](#what-are-sealed-class )|
 |11   | [What are partial classes?	](#what-are-partial-classes )|
 |12   | [What is difference between late binding and early binding?	](#what-is-difference-between-late-binding-and-early-binding )|
+|13   | [Explain SOLID principles in detail	](#what-are-partial-classes )|
 
 
 # What is C#?
@@ -228,6 +229,50 @@ Early Binding and Late Binding concepts belongs to polymorphism so let’s see f
 Polymorphism we have 2 different types to achieve that: • Compile Time also known as Early Binding or Overloading. • Run Time also known as Late Binding or Overriding.
 
 Compile Time Polymorphism or Early Binding: In Compile time polymorphism or Early Binding we will use multiple methods with same name but different type of parameter or may be the number or parameter because of this we can perform different-different tasks with same method name in the same class which is also known as Method overloading.
+
+# What is dependecny injection(DI)?
+
+Explaination 1(In Simple Words):
+
+Dependency Injection can exist between two objects, for instance, a flashlight and a battery. The flashlight needs the battery to function. However, any changes made to the battery, such as switching it with another brand/set of batteries, does not mean the dependent object (flashlight) also needs to be changed.
+
+Such code is called a tighlty coupled code, DI gives us the freedom of writing decoupled code.
+
+Explaination 2(In Technical Words):
+
+Dependency injection (DI) is a software design pattern that allows us to separate the dependencies of a class from its implementation.
+
+
+# Explain SOLID priciples in detail
+
+• First introduced by Robin J Martin.
+
+• Five priciples of object-oriented class design 
+
+• Set of rules and best practices to follow while designing a class structure.
+
+S: Single Responsibility Principle (SRP)
+
+O: Open-closed Principle (OCP)
+
+L: Liskov substitution Principle (LSP)
+
+I: Interface Segregation Principle (ISP)
+
+D: Dependency Inversion Principle (DIP)
+
+S- Single Responsibility Principle (SRP): Every software module or class should have only one reason to change. we can say that each module or class should have only one responsibility.
+
+O: Open-closed Principle (OCP): The Open-Closed Principle states that software entities such as modules, classes, functions, etc., should be open for extension but closed for modification.
+
+L: Liskov substitution Principle (LSP): The Liskov Substitution Principle states that the object of a derived class should be able to replace an object of the base class without bringing any errors in the system or modifying the behavior of the base class. That means the child class objects should be able to replace parent class objects without changing the correctness or behavior of the program.
+
+I: Interface Segregation Principle (ISP): The Interface Segregation Principle states that Clients should not be forced to implement any methods they don’t use. Rather than one fat interface, numerous little interfaces are preferred based on groups of methods, with each interface serving one submodule.
+
+D: Dependency Inversion Principle (DIP): The Dependency Inversion Principle (DIP) states that high-level modules/classes should not depend on low-level modules/classes. Both should depend upon abstractions. Secondly, abstractions should not depend upon details. Details should depend upon abstraction.
+
+
+
 
 
 
