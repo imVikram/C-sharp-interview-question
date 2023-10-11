@@ -14,7 +14,8 @@ Updated C Sharp(C#) interview questions list
 |10   | [What are sealed class?	](#what-are-sealed-class )|
 |11   | [What are partial classes?	](#what-are-partial-classes )|
 |12   | [What is difference between late binding and early binding?	](#what-is-difference-between-late-binding-and-early-binding )|
-|13   | [Explain SOLID principles in detail	](#what-are-partial-classes )|
+|13   | [What is dependecny injection(DI)?	](#what-is-dependecny-injectiondi )|
+|14   | [Explain SOLID priciples in detail	](#explain-solid-priciples-in-detail )|
 
 
 # What is C#?
