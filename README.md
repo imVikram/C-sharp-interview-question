@@ -279,9 +279,8 @@ D: Dependency Inversion Principle (DIP): The Dependency Inversion Principle (DIP
 
 |IEnumerable| IQueryable|
 |----|----|
-|IEnumerable exists in the System.Collections namespace.|
-|IQueryable exists in the System.Linq Namespace.|
-| IEnumerable is suitable for querying data from in-memory collections like List, Array and so on.|IQueryable is suitable for querying data from out-memory (like remote database, service) collections.|
+|IEnumerable exists in the System.Collections namespace.|IQueryable exists in the System.Linq Namespace.|
+|IEnumerable is suitable for querying data from in-memory collections like List, Array and so on.|IQueryable is suitable for querying data from out-memory (like remote database, service) collections.|
 |While querying data from the database, IEnumerable executes "select query" on the server-side, loads data in-memory on the client-side and then filters the data.|While querying data from a database, IQueryable executes a "select query" on server-side with all filters.|
 |IEnumerable is beneficial for LINQ to Object and LINQ to XML queries.|IQueryable is beneficial for LINQ to SQL queries.|
 
