@@ -16,7 +16,7 @@ Updated C Sharp(C#) interview questions list
 |12   | [What is difference between late binding and early binding?	](#what-is-difference-between-late-binding-and-early-binding )|
 |13   | [What is dependecny injection(DI)?	](#what-is-dependecny-injectiondi )|
 |14   | [Explain SOLID priciples in detail	](#explain-solid-priciples-in-detail )|
-|15   | [Differences between IEnumerable and IQueryable in C# ](Differences between IEnumerable and IQueryable in C#?)|
+|15   | [Differences between IEnumerable and IQueryable in C# ](#differences-between-ienumerable-and-iqueryable-in-c)|
 |16   | [Async and Await in C#](What is a Delegate in C#?)|
 |17   | [What is a Delegate in C#?	](#What is a Delegate in C#? )|
 
