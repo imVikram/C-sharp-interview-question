@@ -16,7 +16,7 @@ Updated C Sharp(C#) interview questions list
 |12   | [What is difference between late binding and early binding?	](#what-is-difference-between-late-binding-and-early-binding )|
 |13   | [What is dependecny injection(DI)?	](#what-is-dependecny-injectiondi )|
 |14   | [Explain SOLID priciples in detail	](#explain-solid-priciples-in-detail )|
-|15   | [Differences between IEnumerable and IQueryable in C# ](What is a Delegate in C#?)|
+|15   | [Differences between IEnumerable and IQueryable in C# ](Differences between IEnumerable and IQueryable in C#?)|
 |16   | [Async and Await in C#](What is a Delegate in C#?)|
 |17   | [What is a Delegate in C#?	](#What is a Delegate in C#? )|
 
@@ -274,6 +274,16 @@ L: Liskov substitution Principle (LSP): The Liskov Substitution Principle states
 I: Interface Segregation Principle (ISP): The Interface Segregation Principle states that Clients should not be forced to implement any methods they don’t use. Rather than one fat interface, numerous little interfaces are preferred based on groups of methods, with each interface serving one submodule.
 
 D: Dependency Inversion Principle (DIP): The Dependency Inversion Principle (DIP) states that high-level modules/classes should not depend on low-level modules/classes. Both should depend upon abstractions. Secondly, abstractions should not depend upon details. Details should depend upon abstraction.
+
+# Differences between IEnumerable and IQueryable in C#?
+
+|IEnumerable| IQueryable|
+|----|----|
+|IEnumerable exists in the System.Collections namespace.|
+|IQueryable exists in the System.Linq Namespace.|
+| IEnumerable is suitable for querying data from in-memory collections like List, Array and so on.|IQueryable is suitable for querying data from out-memory (like remote database, service) collections.|
+|While querying data from the database, IEnumerable executes "select query" on the server-side, loads data in-memory on the client-side and then filters the data.|While querying data from a database, IQueryable executes a "select query" on server-side with all filters.|
+|IEnumerable is beneficial for LINQ to Object and LINQ to XML queries.|IQueryable is beneficial for LINQ to SQL queries.|
 
 
 
